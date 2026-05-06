@@ -10,7 +10,7 @@ class Coffee implements Cloneable {
     }
 }
 
-class Main {
+class Main_clone {
     public static void main(String[] args) throws CloneNotSupportedException {
         // Original object : Order 1
         Coffee Order1 = new Coffee("Latte");

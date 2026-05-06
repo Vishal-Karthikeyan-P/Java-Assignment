@@ -11,7 +11,7 @@ class Employee implements Serializable {
     }
 }
 
- class Main {
+ class Main_serialization {
     // Generic method to deep copy any Serializable object
     public static <T extends Serializable> T deepCopy(T object) {
         try {

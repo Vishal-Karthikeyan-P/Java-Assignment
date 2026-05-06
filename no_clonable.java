@@ -7,7 +7,7 @@ class SecretDocument {
         return super.clone(); 
     }
 }
-class Main {
+class Main_no_cloneable {
     public static void main(String[] args) {
         SecretDocument doc1 = new SecretDocument();
         

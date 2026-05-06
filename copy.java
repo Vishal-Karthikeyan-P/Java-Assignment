@@ -21,12 +21,13 @@ class Employee {
     }
     
     public void setStartDate(long time) { this.startDate.setTime(time); }
+    @Override
     public String toString() {
         return "ID: " + id + " | Name: " + name + " | Start Date: " + startDate;
     }
 }
 
-class Main {
+class Main_copy {
     public static void main(String[] args) {
         // 1. Create the original employee
         Date initialDate = new Date(); // Current time

@@ -24,7 +24,7 @@ class Student implements Cloneable {
     }
 }
 
-class Main {
+class Main_shallow_deep {
     public static void main(String[] args) throws CloneNotSupportedException {
         Address sharedAddr = new Address("New York");
         Student original = new Student("Alice", sharedAddr);

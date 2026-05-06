@@ -24,7 +24,7 @@ class PizzaChef extends Chef {
     }
 }
 
- class Main {
+ class Main_before {
     public static void main(String[] args) {
         PizzaChef chef = new PizzaChef();
         // The pizzachef returns Food which is a pizza, but the result object is Food

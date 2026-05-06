@@ -20,7 +20,7 @@ class PizzaChef extends Chef {
     }
 }
 
-public class Main {
+ class Main_cov_after {
     public static void main(String[] args) {
         PizzaChef chef = new PizzaChef();
         

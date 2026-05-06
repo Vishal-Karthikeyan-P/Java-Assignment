@@ -1,4 +1,3 @@
-import java.util.Date;
 
 class CloneDemo implements Cloneable {
     // 1. Immutable 
@@ -20,7 +19,7 @@ class CloneDemo implements Cloneable {
     }
 }
 
- class Main {
+ class Main_types {
     public static void main(String[] args) throws CloneNotSupportedException {
         CloneDemo original = new CloneDemo();
         CloneDemo copy = (CloneDemo) original.clone();
